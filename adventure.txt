@@ -21,7 +21,7 @@ Go to the left: You approach the figure. It is a young man in fine clothes that 
     The man appears to be dead. You find a folded up piece of paper and a small pouch in his pocket.
        
     You read the paper:
-        Blah blah blah good letter blah blah whatever clues blah blah
+        There is blood on your hands, that blood will never wash away
 
 
 Continue to the left.
