@@ -7,8 +7,8 @@ Look to the left: You see a figure washed up not too far away from you
 Look to the right: To the right you see fragments of wood from a wreckage and bones scattered in the sand.
 
 What do you do?
-Press l to go to the left
-Press r to go to the right
+Go [l]eft
+Go [r]ight
 
 Go to the right: You examine the bones. It looks like they're some kind of animal bones. Something has recently eaten all of the meat off of them. Nearby you spot a
 piece of paper. You pick it up and read it:
@@ -24,7 +24,7 @@ Go to the left: You approach the figure. It is a young man in fine clothes that 
         Blah blah blah good letter blah blah whatever clues blah blah
 
 
-Continue to the left. klgvjksafghjkhw gjfndajkgnsdjklghjkhfruehg uwjgh jeg
+Continue to the left
 
 
 If continued to the left:   
