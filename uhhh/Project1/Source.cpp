@@ -24,7 +24,7 @@ Go to the left: You approach the figure. It is a young man in fine clothes that 
         Blah blah blah good letter blah blah whatever clues blah blah
 
 
-Continue to the left.
+Continue to the left. klgvjksafghjkhw gjfndajkgnsdjklghjkhfruehg uwjgh jeg
 
 
 If continued to the left:   
