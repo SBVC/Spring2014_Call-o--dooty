@@ -1,30 +1,32 @@
-You wake up slowly with waves crashing over your body. You don't know where you are
-or how you got there. You get up and look around.
+#include iostream
 
-(blah blah code programming c++)
+cout << "Chapter 1\n"
+cout << "You wake up slowly with waves crashing over your body.\n" 
+cout << "You don't know where you are or how you got there.\n" 
+cout << "You get up and look around.\n"
 
-Look to the left: You see a figure washed up not too far away from you
-Look to the right: To the right you see fragments of wood from a wreckage and bones scattered in the sand.
 
-What do you do?
-Press l to go to the left
-Press r to go to the right
+cout << "You see a figure washed up not too far away from you.\n" 
+cout << "The figure is surrounded by fragments of wood, presumably from a wreckage.\n" 
 
-Go to the right: You examine the bones. It looks like they're some kind of animal bones. Something has recently eaten all of the meat off of them. Nearby you spot a
-piece of paper. You pick it up and read it:
-    MISSING: Reward $10,000 Blonde, green eyes, 6 feet one inches
 
-Go to the left: You approach the figure. It is a young man in fine clothes that have been ruined in the wreckage. He is lying face-down in the sand.
-        What do you do?
+cout << "Continue to the figure. Press x...\n"
+
+cout << "You approach the figure. It is a young man in fine clothes that have been ruined in the wreckage.\n" 
+cout << "He is lying face-down in the sand.\n"
+
+
+cout << "Search his body. Press x...\n"
+
+cout << "The man appears to be dead from a wound in his back. You find a folded up piece of paper in a small box.\n"
        
-        Search his body.
-    The man appears to be dead. You find a folded up piece of paper and a small pouch in his pocket.
-       
-    You read the paper:
-        Blah blah blah good letter blah blah whatever clues blah blah
+cout << "You read the paper:\n"
+cout << "1721\n"
+        
+cout << "I do not remember how many days I have spent on this wretched ship. My captain was sleeping in his quarters\n"
+cout << "when a ship appeared on the horizon. As it drew closer, it raised a black flag"
+        bleep bloop leter stuff i can't think of anything right now
+        
+        
+        
 
-
-Continue to the left.
-
-
-If continued to the left:   
