@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+int main()
+{
 
 cout << "Chapter 1\n"
 cout << "You wake up slowly with waves crashing over your body.\n" 
