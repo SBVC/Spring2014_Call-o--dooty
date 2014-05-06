@@ -3,6 +3,7 @@ using namespace std;
 
 
 int direction;
+
 class Player
 	{
 private:
@@ -15,9 +16,16 @@ private:
 int main()
 {
 cout << "Chapter 1\n";
+
+cout << "Press enter to continue...";
+cin.get();
+
 cout << "You wake up slowly with waves crashing over your body.\n" ;
 cout << "You don't know where you are or how you got there.\n" ;
 cout << "You get up and look around.\n";
+
+cout << "Press enter to continue...";
+cin.get();
 
 do{
 
@@ -98,11 +106,11 @@ cout << "rocky shore\n";
 break;
 
 default:
-	cout <<"Error - Invalid input";
+	cout <<"Error - Invalid input\n";
 					  
 					   system ("pause");
 
-					   return 0;
+					 
 }
         
 
