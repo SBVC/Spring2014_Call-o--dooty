@@ -1,4 +1,6 @@
-#include iostream
+#include <iostream>
+using namespace std;
+
 
 cout << "Chapter 1\n"
 cout << "You wake up slowly with waves crashing over your body.\n" 
@@ -24,9 +26,12 @@ cout << "You read the paper:\n"
 cout << "1721\n"
         
 cout << "I do not remember how many days I have spent on this wretched ship. My captain was sleeping in his quarters\n"
-cout << "when a ship appeared on the horizon. As it drew closer, it raised a black flag"
-        bleep bloop leter stuff i can't think of anything right now
-        
+cout << "when a ship appeared on the horizon. As it drew closer, it raised a black flag."
+cout << "The crew started shouting and preparing to outmaneouver the ship on the horizon.\n"
+cout << "I ran to the captain's quarters and burst through the old wooden door.\n"
+cout << "I saw the captain sprawled out on his bed, a bottle of rum rolled out of his hand and pattered to the floor.\n"
+cout << "The sound of the crew's panic faded from my mind as the captain wheezed out his final words.\n"
+cout << "'I have been poisoned. Trust no one.'\n"
         
         
 
