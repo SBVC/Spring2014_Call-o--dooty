@@ -2,11 +2,26 @@
 using namespace std;
 
 
-class WhichDirection
+class whichDirection
 	{
 	public:
 		
-int direction;
+		int southBeach;
+		int northBeach;
+		int toJungle;
+		int toRocks;
+
+		whichDirection(void);
+		~whichDirection(void);
+		
+		};
+
+whichDirection::whichDirection(void){
+	southBeach = 1;
+	northBeach = 2;
+	toJungle   = 3;
+	toRocks    = 4;
+}
 
 class PlayerClass
 	{
@@ -27,13 +42,12 @@ class NPCDialogue
 	{
 		public: //npc chat goes here if we need it
 	};
-	}
+	
 int main()
 {
 cout << "Chapter 1\n";
 
-		PlayerClass testObject;
-		testObject.coolTest();
+
 
 cout << "Press enter to continue...";
 cin.get();
@@ -54,7 +68,9 @@ cout << "3 - Go into the jungle\n";
 cout << "4 - Climb up the rocky area\n";
 cout << "Please enter 1, 2, 3, or 4.\n";
 
-switch (direction) {
+whichDirection northBeach;
+
+switch (northBeach) {
 
 case 1:
 
@@ -132,5 +148,5 @@ default:
 }
         
 
-}while (direction != 1 & direction !=3) ;
+}while (whichDirection != 1 & whichDirection !=3) ;
 }
