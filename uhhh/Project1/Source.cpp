@@ -59,7 +59,9 @@ cout << "You get up and look around.\n";
 cout << "Press enter to continue...";
 cin.get();
 
-do{
+int explore;
+
+
 
 cout << "Where would you like to go? (We recommend you explore each area) \n";
 cout << "1 - Explore the nothern shoreline\n";
@@ -68,9 +70,9 @@ cout << "3 - Go into the jungle\n";
 cout << "4 - Climb up the rocky area\n";
 cout << "Please enter 1, 2, 3, or 4.\n";
 
-whichDirection northBeach;
+cin >> explore;
 
-switch (northBeach) {
+switch (explore) {
 
 case 1:
 
