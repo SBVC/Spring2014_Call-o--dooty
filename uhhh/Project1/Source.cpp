@@ -2,20 +2,38 @@
 using namespace std;
 
 
+class WhichDirection
+	{
+	public:
+		
 int direction;
 
-class Player
+class PlayerClass
 	{
-private:
-    char* playerName;
 
-	public :
-		Player(void);
+	public:
+		void coolTest() {
+		
+		cout << "not sure what i am doing but hopefully it works!" << endl;
+			
+		};
+		
+	private:
+		 //private things 
+
 };
 
+class NPCDialogue
+	{
+		public: //npc chat goes here if we need it
+	};
+	}
 int main()
 {
 cout << "Chapter 1\n";
+
+		PlayerClass testObject;
+		testObject.coolTest();
 
 cout << "Press enter to continue...";
 cin.get();
