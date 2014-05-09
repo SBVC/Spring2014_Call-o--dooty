@@ -134,7 +134,63 @@ break;
 case 3:
 
 cout << "jungle\n";
-break;
+
+                cout << "You decide to gather some food before the night descended.\n";
+                cout << "As you walk deeper and deeper into the jungle every step you take your feet sink in the spongy green ground.\n";
+                cout << "Sounds emerge and from a distance you notice a dark silhoutte coming towards you.\n";
+                cout << " You stand still for a few seconds until you realize it's a WOLF\n";
+                cout << "Press enter to continue.\n";
+                cin.get();
+                
+                int wolves;
+                cout << "Not only one wolf but a PACK OF WILD WOLVES.\n";
+                cout << "Do you run or climb the nearest tree?\n";
+                
+                cout << "What would you like to do?\n";
+                cout << "[1] to run or [2] to climb the nearest tree\n";
+                cin >> wolves;
+                cin.get();
+                
+                switch(wolves){
+                        case 1:
+                            cout << "You stand there with a fixed expression, palms sweating and heart beating faster than ever.\n";
+                            cin.get();
+                            cout << "You run and the pack of wolves chase you.\n";
+                            cin.get();
+                            cout << " You continue to run and every branch and twig scratches you along the way.\n";
+                            cout << "Press enter to continue\n";
+                            cin.get();
+                            cout << " You reach a cave.\n";
+                        int cave;
+                            cout << "Do you wish to continue to run or enter the cave?\n";
+                            cin.get();
+                            cout << " [3] to continue to run or [4] to enter the cave";
+                            cin >> cave;
+                            cin.get();
+                        switch(cave) {
+                                    case 3:
+                                        cout << "You continue to run until you reach a dead end\n";
+                                        cout << "The wolves approach you, however, all of sudden the wolves leave you and go back in the same direction they came from\n";
+                                        cout << "You slowly turn around and see a GORILLA\n";
+                                        cin.get();
+                                        cout <<" ";
+                                        cin.get();
+                                        break;
+                                     case 4:
+                                        cout << " You enter the cave and stay there for a while until the wolves are no longer chasing you. You found some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
+                                        cin.get();
+                                        cout << " ";
+                                        cin.get();
+                                        break;
+                                        
+                                }
+                         case 2:
+                            cout << "You stand there and slowly walk towards the nearest tree.\n";
+                            cout << "You climb the tree quietly as possible until you reach the  highest branch.\n";
+                            cout << "You decide to stay the night a top of the tree.\n";
+                            cout << "As the morning ascended you were skeptical whether or not to get down from the tree.\n";
+                                cin.get();
+			break;
 
 case 4:
 
@@ -147,7 +203,7 @@ default:
 					   system ("pause");
 
 					 
-}
+}}}
         
 
 }while (whichDirection != 1 & whichDirection !=3) ;
