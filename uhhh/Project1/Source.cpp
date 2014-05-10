@@ -39,7 +39,7 @@ cout << "You get up and look around.\n";
 cout << "Press enter to continue...";
 cin.get();
 int explore;
-cout << "Where would you like to go? (We recommend you explore each area) \n";
+cout << "Where would you like to go?\n";
 cout << "1 - Explore the nothern shoreline\n";
 cout << "2 - Explore the southern shoreline\n";
 cout << "3 - Go into the jungle\n";
@@ -61,7 +61,7 @@ cout << "The figure is surrounded by fragments of wood, presumably from a wrecka
 cout << "Press enter to continue...";
 cin.get();
 
-int dedGuy;
+char dedGuy;
 
 cout << "You approach the figure. It is a young man in fine clothes that have been ruined in the wreckage.\n" ;
 cout << "He is lying face-down in the sand.\n";
@@ -116,7 +116,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     cout << "You get an uneasy feeling as if you are being watched.\n";
     cin.get();
     
-     int hunger;
+     char hunger;
      
     cout << "Your stomach rumbles and you feel fatigued.\n";
     cin >> explore; //don't know if this is right. how do i refer to another switch outside of this one?
@@ -136,7 +136,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cout << "All of a sudden, you see leaves rustling in the jungle. You have a very bad feeling about this\n";
     	cout << "and you don't think it would be a good idea to stick around to see what's following you.\n";
     	
-    		int spooky;
+    		char spooky;
     		
     	cout << "Do you\n";
     	cout << "[R]un toward the pathway leading away from the jungle.\n";
@@ -147,7 +147,21 @@ cout << "before your eyes close and you lose consciousness.\n";
     	case 'R' :
     	cout << "You spot a small, hidden pathway leading away from the jungle.\n";
     	cout << "You feel significantly safer the further you move away, however something is drawing you back.\n";
+    	cout << "You cautiously walk towards the dense jungle.\n";
+    	cin.get();
+    	cout << "It is much darker unter the thick canopy of trees.\n";
+    	cout << "You hear the collective sound of animals and bugs which amounts to a low hum.\n";
+    	cin.get();
+    	cout << "You see the silhouette of a small hut in the distance. It looks like there could be other people on this island after all!\n";
+    	cin.get();
+    	cout << "You begin jogging toward the hut excitedly. Perhaps this could be your escape from the island!\n";
+    	
+    	char multiverse;
+    	
+    	cout << "You hear some more rustling coming from the jungle behind you\n";
     	//more spooky story soon to come
+    	
+    	break;
     	
     	case 'G' :
     	cout << "The castle seems like as good a place as any to crash for the night and you won't have to build a shelter.\n";
@@ -155,6 +169,7 @@ cout << "before your eyes close and you lose consciousness.\n";
 	cin.get();
 	cout << "Something about this castle feels...familiar to you but you can't quite figure out why.\n";
 	
+	break;
 	}
     
     break;
