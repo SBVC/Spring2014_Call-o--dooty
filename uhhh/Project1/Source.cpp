@@ -11,8 +11,8 @@ class whichDirection
 		int toJungle;
 		int toRocks;
 
-		whichDirection(void);
-		~whichDirection(void);
+		whichDirection(void); //constructor
+		~whichDirection(void); //destructor
 		
 		};
 
@@ -23,26 +23,6 @@ whichDirection::whichDirection(void){
 	toRocks    = 4;
 }
 
-class PlayerClass
-	{
-
-	public:
-		void coolTest() {
-		
-		cout << "not sure what i am doing but hopefully it works!" << endl;
-			
-		};
-		
-	private:
-		 //private things 
-
-};
-
-class NPCDialogue
-	{
-		public: //npc chat goes here if we need it
-	};
-	
 int main()
 {
 cout << "Chapter 1\n";
@@ -58,17 +38,14 @@ cout << "You get up and look around.\n";
 
 cout << "Press enter to continue...";
 cin.get();
-
 int explore;
-
-
-
 cout << "Where would you like to go? (We recommend you explore each area) \n";
 cout << "1 - Explore the nothern shoreline\n";
 cout << "2 - Explore the southern shoreline\n";
 cout << "3 - Go into the jungle\n";
 cout << "4 - Climb up the rocky area\n";
 cout << "Please enter 1, 2, 3, or 4.\n";
+
 
 cin >> explore;
 
@@ -84,13 +61,21 @@ cout << "The figure is surrounded by fragments of wood, presumably from a wrecka
 cout << "Press enter to continue...";
 cin.get();
 
+int dedGuy;
+
 cout << "You approach the figure. It is a young man in fine clothes that have been ruined in the wreckage.\n" ;
 cout << "He is lying face-down in the sand.\n";
+cout << "[S]earch his body.\n";
+cout << "[M]ove to the southern shore.\n";
 
-cout << "Search his body. Press enter\n";
-cin.get();
 
-cout << "The man appears to be dead from a wound in his back. You find a folded up piece of paper in a small box.\n";
+cin >> dedGuy;
+
+switch ( dedGuy ) {
+
+  case 'S' : 
+   
+    cout << "The man appears to be dead from a wound in his back. You find a folded up piece of paper in a small box.\n";
        
 cout << "You read the paper:\n";
 cout << "1721\n";
@@ -122,6 +107,62 @@ cout << "I heard a voice from beside me. It was the navigator-";
 cout << "You drop the entry onto the sand and fall to your knees. The sounds of the waves become disorted and\n";
 cout << "you can no longer see clearly. Your head hits the ground. You catch a glimpse of a dark figure standing above you\n";
 cout << "before your eyes close and you lose consciousness.\n";
+
+    break;
+
+  case 'M' : 
+    // user presses M to go to southern shore
+    cout << "As you walk south alone the shoreline, the sun sinks lowers into the horizon.\n";
+    cout << "You get an uneasy feeling as if you are being watched.\n";
+    cin.get();
+    
+     int hunger;
+     
+    cout << "Your stomach rumbles and you feel fatigued.\n";
+    cin >> explore; //don't know if this is right. how do i refer to another switch outside of this one?
+    cout << "Do you go into the jungle to find food? Press [3]\n";
+    cout << "Climb onto the rocks further down the shore? Press [R]\n";
+    cout << "Continue exploring the southern shoreline? Press [S]\n";
+   
+    cin >> hunger;
+    switch (hunger){
+    	case 'R' : 
+    	cout << "As you approach the rocks, you notice something very interesting.\n";
+    	cout << "It is an old castle that has started falling into the ocean. The ocean always takes back what is hers.\n";
+    	 cin.get();
+    	cout << "The castle isn't very large, but it seems like quite a few people could have lived in it.\n";
+    	cout << "You decide to see what you can salvage from it. Perhaps it will be a nice place to spend the night.\n";
+    	 cin.get();
+    	cout << "All of a sudden, you see leaves rustling in the jungle. You have a very bad feeling about this\n";
+    	cout << "and you don't think it would be a good idea to stick around to see what's following you.\n";
+    	
+    		int spooky;
+    		
+    	cout << "Do you\n";
+    	cout << "[R]un toward the pathway leading away from the jungle.\n";
+    	cout << "[G]o into the castle and attempt to hide.\n";
+    
+    	cin >> spooky;
+    	switch (spooky)
+    	case 'R' :
+    	cout << "You spot a small, hidden pathway leading away from the jungle.\n";
+    	cout << "You feel significantly safer the further you move away, however something is drawing you back.\n";
+    	//more spooky story soon to come
+    	
+    	case 'G' :
+    	cout << "The castle seems like as good a place as any to crash for the night and you won't have to build a shelter.\n";
+	cout << "You jog towards its gate quickly and much of your fear subsides.\n";
+	cin.get();
+	cout << "Something about this castle feels...familiar to you but you can't quite figure out why.\n";
+	
+	}
+    
+    break;
+
+  default : 
+    cout << "You have entered an invalid character. Try again.\n";
+
+} //switch for searching body or going to southern shore
 
 break;
 
