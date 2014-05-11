@@ -159,6 +159,50 @@ cout << "before your eyes close and you lose consciousness.\n";
     	char multiverse;
     	
     	cout << "You hear some more rustling coming from the jungle behind you\n";
+    	cout << "Do you [R]un to the hut without looking back?\n";
+    	cout << "Or [T]urn around and face the mysterious rustling?";
+    	
+    	cin >> multiverse;
+    	switch (multiverse)
+    	
+    	case R: //user runs to the hut
+    	cout << "You decide yo ignore whatever is making those rustling sounds and run straight to the hut.\n";
+    	cout << "As you approach the hut, you notice smoke coming from the roof.\n";
+    	cout << "Someone is nearby and they may even have food for you!\n";
+    	cin.get();
+    	
+    	
+    	case T: //user turns around to the rustling
+    	cout << "You spin around as soon as you hear the rustling.\n";
+    	cout << "Carefully, you creep over to the place it came from.\n";
+    	cin.get();
+    	cout << "You hear branches break above you and suddenly you are face down on the ground.\n";
+    	cout << "You begin to shout when you feel a heavy weight on your back and a piercing pain just above your knee.\n";
+    	cin.get();
+    	cout << "You slowly fade out of conscioussness after a short struggle to find out what is going on.\n";
+    	cin.get();
+    	cout << "...\n";
+    	cin.get();
+    	cout << "You open your eyes.\n";
+    	cout << "You can't seem to remember where you are or how you got there.\n";
+    	cout << "You seem to be getting into this situation a lot recently...\n";
+    	cin.get();
+    	cout << "As your vision clears up, you absorb your surroundings.\n";
+    	cin.get();
+    	cout << "You are bobbing up and down on a small makeshift boat.\n";
+    	cout << "There is a young woman across from you, she seems to be asleep.\n";
+    	cin.get();
+    	cout << "You make an attempt to engage with her but you can't seem to move.\n";
+    	cout << "You make a strained moan. There is a throbbing pain in your leg. Was it she who did this?\n";
+    	cin.get();
+    	cout << "'Do not struggle,' she says to you, her eyes still closed.\n";
+    	cout << "'I used poison arrows to knock you out.'\n";
+    	cout << "'You will be fine, as long as you rest.'\n";
+    	cin.get();
+    	cout << "You try to ask her one of the many questions on your mind\n";
+    	cout << "but you cannot get any words out.\n";
+    	cout << "You once again lose conscioussness.\n";
+    	
     	//more spooky story soon to come
     	
     	break;
@@ -168,8 +212,16 @@ cout << "before your eyes close and you lose consciousness.\n";
 	cout << "You jog towards its gate quickly and much of your fear subsides.\n";
 	cin.get();
 	cout << "Something about this castle feels...familiar to you but you can't quite figure out why.\n";
-	
+	cout << "You go through the gate and into a small courtyard.\n";
+	cout << "There are a few doors leading to different areas of the castle, \n";
+	cout << "but you are drawn to the one to the right.\n";
+	cin.get();
+	cout << "You twist the handle slowly, unsure of what you will find.\n";
+	cout << "As you open the door and gaze into the room, your eyes grow wide and you fall to your knees.\n";
 	break;
+	
+	default:
+	cout << "You have entered an invalid option, please try again.\n";
 	}
     
     break;
@@ -262,5 +314,5 @@ default:
 }}}
         
 
-}while (whichDirection != 1 & whichDirection !=3) ;
+}
 }
