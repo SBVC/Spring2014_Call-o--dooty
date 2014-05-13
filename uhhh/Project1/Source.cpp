@@ -331,6 +331,20 @@ cout << "jungle\n";
                             cout << "You climb the tree quietly as possible until you reach the  highest branch.\n";
                             cout << "You decide to stay the night a top of the tree.\n";
                             cout << "As the morning ascended you were skeptical whether or not to get down from the tree.\n";
+                            cout << "You decide to get down from the tree.\n";
+		            cout << "You walk around with cautious.\n"
+			    cout << "After walking for half an hour you notice a cabin in the middle of the jungle.\n";
+			    cout << "You decide to enter the cabin, you notice there is backpacks in the entrance of the door and goats laying all over the sofas. Hints that there was people in the cabin.\n";
+			    cout << "You inspect the whole cabin and  notice pictures hanging in the wall, but one of the pictures caught your attention.\n";
+			    cout << "You grab the picture and stare at it for a few seconds and notice it looks like you.\n";
+			    cout << "You hear some footsteps, so you run to the nearest room.\n";
+			    cout << "You decide to hide but there is no place big enough for you to hide. So you just stand in the middle room waiting for whomever to find you.\n";
+			    cout << " You see the door knob move clockwise and counterclockwise.\n";
+			    cout << "Your heart starts beating fast and your palms of your hands start sweating profusely.\n";
+			    cout << "A man opens the door and stares at you with a perplexed expression.\n";
+			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n"
+			    cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
+			    cout << " After beating you more ...."
                                 cin.get();
 			break;
 
