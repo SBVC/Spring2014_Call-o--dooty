@@ -124,6 +124,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     cout << "Your stomach rumbles and you feel fatigued.\n";
     cout << "Climb onto the rocks further down the shore to find food? Press [R]\n";
     cout << "Continue exploring the southern shoreline? Press [S]\n";
+    cout << "[W]alk into the ocean\n";
    
     cin >> hunger;
     switch (hunger){
@@ -192,7 +193,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cout << "...\n";
     	cin.get();
     	cout << "You open your eyes.\n";
-    	cout << "You can't seem to remember where you are or how you got there.\n";
+    	cout << "You can't remember where you are or how you got there.\n";
     	cout << "You seem to be getting into this situation a lot recently...\n";
     	cin.get();
     	cout << "As your vision clears up, you absorb your surroundings.\n";
@@ -210,7 +211,13 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cout << "You try to ask her one of the many questions on your mind\n";
     	cout << "but you cannot get any words out.\n";
     	cout << "You once again lose conscioussness.\n";
-    	
+    	cin.get();
+    	cout << "You wake up in unfamiliar surroundings.\n";
+    	cin.get();
+    	cout << "You look around, the woman is sitting next to you.\n";
+    	cout << "She sees that you are awake and says, 'We are almost home.'\n";
+    	cin.get();
+    	cout << "What could that mean? You don't remember where your home is...\n";
     	//more spooky story soon to come
     	
     	break;
