@@ -25,7 +25,7 @@ whichDirection::whichDirection(void){
 
 int main()
 {
-cout << "Chapter 1\n";
+cout << "Begin\n";
 
 
 
@@ -73,7 +73,8 @@ cin >> dedGuy;
 
 switch ( dedGuy ) {
 
-  case 'S' : 
+  case 'S' :
+  case 's' :
    
     cout << "The man appears to be dead from a wound in his back. You find a folded up piece of paper in a small box.\n";
        
@@ -110,7 +111,9 @@ cout << "before your eyes close and you lose consciousness.\n";
 
     break;
 
-  case 'M' : 
+  case 'M' :
+  case 'm' :
+
     // user presses M to go to southern shore
     cout << "As you walk south alone the shoreline, the sun sinks lowers into the horizon.\n";
     cout << "You get an uneasy feeling as if you are being watched.\n";
@@ -119,14 +122,14 @@ cout << "before your eyes close and you lose consciousness.\n";
      char hunger;
      
     cout << "Your stomach rumbles and you feel fatigued.\n";
-    cin >> explore; //don't know if this is right. how do i refer to another switch outside of this one?
-    cout << "Do you go into the jungle to find food? Press [3]\n";
-    cout << "Climb onto the rocks further down the shore? Press [R]\n";
+    cout << "Climb onto the rocks further down the shore to find food? Press [R]\n";
     cout << "Continue exploring the southern shoreline? Press [S]\n";
    
     cin >> hunger;
     switch (hunger){
     	case 'R' : 
+		case 'r' :
+
     	cout << "As you approach the rocks, you notice something very interesting.\n";
     	cout << "It is an old castle that has started falling into the ocean. The ocean always takes back what is hers.\n";
     	 cin.get();
@@ -145,11 +148,13 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cin >> spooky;
     	switch (spooky)
     	case 'R' :
+		case 'r' :
+
     	cout << "You spot a small, hidden pathway leading away from the jungle.\n";
     	cout << "You feel significantly safer the further you move away, however something is drawing you back.\n";
     	cout << "You cautiously walk towards the dense jungle.\n";
     	cin.get();
-    	cout << "It is much darker unter the thick canopy of trees.\n";
+    	cout << "It is much darker under the thick canopy of trees.\n";
     	cout << "You hear the collective sound of animals and bugs which amounts to a low hum.\n";
     	cin.get();
     	cout << "You see the silhouette of a small hut in the distance. It looks like there could be other people on this island after all!\n";
@@ -166,6 +171,8 @@ cout << "before your eyes close and you lose consciousness.\n";
     	switch (multiverse)
     	
     	case 'R': //user runs to the hut
+		case 'r':
+
     	cout << "You decide yo ignore whatever is making those rustling sounds and run straight to the hut.\n";
     	cout << "As you approach the hut, you notice smoke coming from the roof.\n";
     	cout << "Someone is nearby and they may even have food for you!\n";
@@ -173,6 +180,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     	
     	
     	case 'T': //user turns around to the rustling
+		case 't':
     	cout << "You spin around as soon as you hear the rustling.\n";
     	cout << "Carefully, you creep over to the place it came from.\n";
     	cin.get();
@@ -208,6 +216,8 @@ cout << "before your eyes close and you lose consciousness.\n";
     	break;
     	
     	case 'G' :
+		case 'g' :
+
     	cout << "The castle seems like as good a place as any to crash for the night and you won't have to build a shelter.\n";
 	cout << "You jog towards its gate quickly and much of your fear subsides.\n";
 	cin.get();
@@ -335,8 +345,10 @@ default:
 					   system ("pause");
 
 					 
-}}}
+				}
+	}
+}
         
 
-}
-}
+
+
