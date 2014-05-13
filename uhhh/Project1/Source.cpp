@@ -336,7 +336,7 @@ cout << "jungle\n";
                                         cout << "You and Michael try to help David fight off the bear but is useless. So you, Michael, and David decide to carry Jessica and run away from the bear.\n";
                                         cout <<"As you see Jessica you start fearing the worst for her, she is bleeding too much. As all of you continue to run, Michael notices a cave and all of you decide to hide in the cave.\n"
                                         cout <<"David and Michael block the entrance of the cave with boulders and branches so the bear can enter, and you lay Jessica in the ground.\n";
-                                        cout <<"You all know she is dying, so you all gather around Jessica.\n";\n";
+                                        cout <<"You all know she is dying, so you all gather around Jessica.\n";
                                         cout <<"After ..... "
                                         cin.get();
                                         break;
@@ -360,13 +360,151 @@ cout << "jungle\n";
 			    cout << "A man opens the door and stares at you with a perplexed expression.\n";
 			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n"
 			    cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
-			    cout << " After beating you more ....\n";
+			    cout << " After beating you for what felt an hour. He finally asks you what are you doing in the cabin. \n";
+			    cout <<"...\n";
                                 cin.get();
 			break;
 
 case 4:
 
 cout << "rocky shore\n";
+
+cout << "Chapter 2\n";
+
+cout << "There are jagged rocks that from a distance look as swords stabbed in the beach.\n";
+
+cout << "You start walking to the rocks there seems to be a constant fog looming over it.\n";
+
+cout << "You are at the rocks and for some reason you get an eerie feeling.\n";
+
+cout << "Press enter to climb to the top..."; 
+
+cin.get();
+
+cout << "You start to climb to the top.\n";
+
+cout << "You feel pinches on your ankles and legs.\n";
+
+cout << "Press the enter key to look down...";
+
+cin.get(); 
+
+cout << "You look down and there are crabs snapping at you.\n";
+
+cout << "The pinches are feeling more like stabs.\n";
+
+cout << "The pain is excruciating, but your more then halfway to the top.\n";
+
+cout << "You get to the top of the rocks but your legs are bleeding.\n"; 
+
+cout<< "You walk around till you hear chanting on the rocks edge, closer to the ocean.\n";
+
+cout << "As you continue you see a straw hat blowing towards you.\n";
+
+cout << "Press enter to put hat on or push ctrl to let it pass...";
+
+cin.get();
+
+int hat;
+
+　
+
+cout << "Then there is a dim yellow glow to what seems the end of the rocks.\n";
+
+cout << "As you continue towards the ocean the chanting becomes to get louder.\n";
+
+cout << "You hear a woman's scream.\n";
+
+cout << "Push enter to go forward or to go back push Ctrl...";
+
+cin.get();
+
+int going;
+
+cout << "What to do?.\n"; 
+
+cout << "You reach the edge and to your dismay the land drops to what looks like a crater.\n";
+
+cout << "There is a small fire barely illuminating the crater.\n";
+
+cout << "At the bottom of the crater there is a tribe doing human sacrififces.\n";
+
+cout << "The scream came from a woman that was getting her heart torn out.\n";
+
+cout << "There is a line of people with hands bound all look like the tribe all but one.\n";
+
+cout << "Within the line there is a bald white man with a bushy beard.\n";
+
+cout << "He is fifth to be sacrificed the second to be sacrificed is having the blade tear through his skin.\n";
+
+cout << "Press enter to get sneak down...";
+
+cin.get();
+
+cout << "You are along the tribe.\n";
+
+cout << "Since there is little light you and your hat is on you are undetected.\n"; 
+
+cout << "The tribe is going to sacrifice the bearded man.\n";
+
+cout << "Press enter to shout to get the tribes attention...";
+
+cin.get();
+
+cout << "The tribe stops chanting and stare at you.\n";
+
+cout << "They start walking to you.\n";
+
+cout << "Press enter to charge at the group and retrieve the bearded man...";
+
+cin.get();
+
+cout << "You have the bearded man but the tribe is going to surround you.\n";
+
+cout << "In the corner of your eye you see there is a crack just big enough to fit though.\n";
+
+cout << "You start running but the tribe is quickly on your tail.\n";
+
+cout << "You get to the crack but to your dismay the tribe stop as if in fear.\n";
+
+cout << "As you look away from the tribe and in the distance you see a light.\n";
+
+cout << "You go towards the light but when you look back the tribe starts throwing rocks.\n";
+
+cout << "You start pushing the bearded man while the rocks keep hitting you.\n";
+
+cout << "The light is becoming bigger and brighter.\n";
+
+cout << "You get to the light which is a cliff.\n";
+
+cout << "You look back and the tribe is now falling you.\n";
+
+cout << "Press enter to jump from the cliff...";
+
+cin.get();
+
+cout << "You jump into the ocean but the pain of the open wound is unbearable.\n";
+
+cout << "Your barely conscious when you fell yourself getting grabbed.\n";
+
+cout << "The bearded man swims the both of you ashore.\n";
+
+cout << "You two go ashore and when he start talking with an anger face.\n";
+
+cout << "You feel the bearded mans hands grasping your neck.\n";
+
+cout << "Press enter to try and fight him...";
+
+cin.get();
+
+cout << "The more struggle you put the tighter his grip gets.\n";
+
+cout << "He YELLS This is for the captian you scum.\n";
+
+cout << "With your last breath and your vision dissipating you ask WHY!!!.\n";
+
+}
+
 break;
 
 default:
