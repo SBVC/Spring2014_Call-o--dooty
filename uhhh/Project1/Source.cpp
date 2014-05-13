@@ -165,14 +165,14 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cin >> multiverse;
     	switch (multiverse)
     	
-    	case R: //user runs to the hut
+    	case 'R': //user runs to the hut
     	cout << "You decide yo ignore whatever is making those rustling sounds and run straight to the hut.\n";
     	cout << "As you approach the hut, you notice smoke coming from the roof.\n";
     	cout << "Someone is nearby and they may even have food for you!\n";
     	cin.get();
     	
     	
-    	case T: //user turns around to the rustling
+    	case 'T': //user turns around to the rustling
     	cout << "You spin around as soon as you hear the rustling.\n";
     	cout << "Carefully, you creep over to the place it came from.\n";
     	cin.get();
@@ -218,6 +218,19 @@ cout << "before your eyes close and you lose consciousness.\n";
 	cin.get();
 	cout << "You twist the handle slowly, unsure of what you will find.\n";
 	cout << "As you open the door and gaze into the room, your eyes grow wide and you fall to your knees.\n";
+	
+	cin.get();
+	
+	cout << "A voice fades in...\n";
+	cin.get();
+	cout << "'...wake up...we are planning an escape...'\n";
+	cout << "'...six days before the end of each month, a supply ship comes by and restocks this place...'\n";
+	cout << "'...if enough of us get out of our cells and take that ship we can head back to the mainland...'\n";
+	cin.get();
+	cout << "'that sounds impossible...the guards will certainly catch us,' you mutter to the voice\n";
+	cin.get();
+	cout << "'do not be so unsure...i have seen what you are capable of...'\n";
+	
 	break;
 	
 	default:
@@ -236,6 +249,17 @@ break;
 case 2:
 
 cout << "southern shoreline\n";
+
+	cout << "You walk south along the shoreline. Some large dunes rise up in the soft, yellow sand.\n";
+	cout << "You begin to get very thirsty but the only water in sight is capture in the sea.\n";
+	cin.get();
+	cout << "As you continue to walk to see some coconut trees and some cacti.\n";
+	cout << "You decide that you can harvest water from either of them.\n";
+	
+	char waterSource;
+	
+	cout << "Do you try the [C]actus\n";
+	cout << "Or [G]o up the tree for coconuts.\n";
 
 break;
 
