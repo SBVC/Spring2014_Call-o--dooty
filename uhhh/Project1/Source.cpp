@@ -124,7 +124,6 @@ cout << "before your eyes close and you lose consciousness.\n";
     cout << "Your stomach rumbles and you feel fatigued.\n";
     cout << "Climb onto the rocks further down the shore to find food? Press [R]\n";
     cout << "Continue exploring the southern shoreline? Press [S]\n";
-    cout << "[W]alk into the ocean\n";
    
     cin >> hunger;
     switch (hunger){
@@ -193,7 +192,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cout << "...\n";
     	cin.get();
     	cout << "You open your eyes.\n";
-    	cout << "You can't remember where you are or how you got there.\n";
+    	cout << "You can't seem to remember where you are or how you got there.\n";
     	cout << "You seem to be getting into this situation a lot recently...\n";
     	cin.get();
     	cout << "As your vision clears up, you absorb your surroundings.\n";
@@ -211,13 +210,7 @@ cout << "before your eyes close and you lose consciousness.\n";
     	cout << "You try to ask her one of the many questions on your mind\n";
     	cout << "but you cannot get any words out.\n";
     	cout << "You once again lose conscioussness.\n";
-    	cin.get();
-    	cout << "You wake up in unfamiliar surroundings.\n";
-    	cin.get();
-    	cout << "You look around, the woman is sitting next to you.\n";
-    	cout << "She sees that you are awake and says, 'We are almost home.'\n";
-    	cin.get();
-    	cout << "What could that mean? You don't remember where your home is...\n";
+    	
     	//more spooky story soon to come
     	
     	break;
@@ -321,14 +314,30 @@ cout << "jungle\n";
                                         cout << "You continue to run until you reach a dead end\n";
                                         cout << "The wolves approach you, however, all of sudden the wolves leave you and go back in the same direction they came from\n";
                                         cout << "You slowly turn around and see a GORILLA\n";
+                                        cout << "He attacks you and you try to fight him off but he continues to attack you.\n";
+                                        cout <<" The gorilla eventually rips you to shreds and you die.\n";
+                                       
                                         cin.get();
                                         cout <<" ";
                                         cin.get();
                                         break;
                                      case 4:
-                                        cout << " You enter the cave and stay there for a while until the wolves are no longer chasing you. You found some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
-                                        cin.get();
-                                        cout << " ";
+                                        cout << " You enter the cave and stay there for a while until the wolves are no longer chasing you. You find some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
+                                        cout <<" You stay the night inside the cave and as the morning ascended you decide to leave the cave with your handmade weapon.\n";
+                                        cout << "You decide to look for someone to help you get out of the island. As you continue to walk you notice various shreds of animals and you begin to fear for your life.\n";
+                                        cout << "From a far you notice three silhouttes, you begin to get scared, so you pull out your weapon for protection.\n"
+                                        cout << "You approach them slowly. As you approach them closer and closer you realize the three silhouttes are actually three people.\n";
+                                        cout <<" They introduce themselves as Michael, Jessica and, David.\n";
+                                        cout << "You are relief that you finally found a group of people because that means you could finally get out of the jungle from all those vicious wild animals and from the island. So you could return back home.\n";
+                                        cout << "However, they tell you that they are also lost. So you are frustrated more than ever but not scared because you have three more companions. \n";
+                                        cout <<"All of you decide to make shelter for the night and gather some food.\n";
+                                        cout <<"David and Jessica go in search for food and you and Michael built the shelter.\n";
+                                        cout << "You and Michael hear a scream, both of you run toward where the scream came from. When you notice that the scream came from the same direction where Jessica and David went in search for food, you start fearing the worst. When you finally arrived with Jessica and David you notice  Jessica practically bleeding to death and David trying to fight a bear.\n";  
+                                        cout << "You and Michael try to help David fight off the bear but is useless. So you, Michael, and David decide to carry Jessica and run away from the bear.\n";
+                                        cout <<"As you see Jessica you start fearing the worst for her, she is bleeding too much. As all of you continue to run, Michael notices a cave and all of you decide to hide in the cave.\n"
+                                        cout <<"David and Michael block the entrance of the cave with boulders and branches so the bear can enter, and you lay Jessica in the ground.\n";
+                                        cout <<"You all know she is dying, so you all gather around Jessica.\n";\n";
+                                        cout <<"After ..... "
                                         cin.get();
                                         break;
                                         
@@ -351,7 +360,7 @@ cout << "jungle\n";
 			    cout << "A man opens the door and stares at you with a perplexed expression.\n";
 			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n"
 			    cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
-			    cout << " After beating you more ...."
+			    cout << " After beating you more ....\n";
                                 cin.get();
 			break;
 
