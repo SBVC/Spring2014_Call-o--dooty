@@ -2,21 +2,23 @@
 using namespace std;
 
 
-class whichDirection
+class WhichDirection
 	{
-	public:
+	private:
 		
 		int southBeach;
 		int northBeach;
 		int toJungle;
 		int toRocks;
 
-		whichDirection(void); //constructor
-		~whichDirection(void); //destructor
+	public:
+	
+		WhichDirection(void); //constructor
+		
 		
 		};
 
-whichDirection::whichDirection(void){
+WhichDirection::WhichDirection(void){
 	southBeach = 1;
 	northBeach = 2;
 	toJungle   = 3;
