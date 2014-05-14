@@ -327,19 +327,21 @@ cout << "jungle\n";
                                         cout << " You enter the cave and stay there for a while until the wolves are no longer chasing you. You find some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
                                         cout <<" You stay the night inside the cave and as the morning ascended you decide to leave the cave with your handmade weapon.\n";
                                         cout << "You decide to look for someone to help you get out of the island. As you continue to walk you notice various shreds of animals and you begin to fear for your life.\n";
-                                        cout << "From a far you notice three silhouttes, you begin to get scared, so you pull out your weapon for protection.\n"
+                                        cout << "From a far you notice three silhouttes, you begin to get scared, so you pull out your weapon for protection.\n";
                                         cout << "You approach them slowly. As you approach them closer and closer you realize the three silhouttes are actually three people.\n";
                                         cout <<" They introduce themselves as Michael, Jessica and, David.\n";
                                         cout << "You are relief that you finally found a group of people because that means you could finally get out of the jungle from all those vicious wild animals and from the island. So you could return back home.\n";
                                         cout << "However, they tell you that they are also lost. So you are frustrated more than ever but not scared because you have three more companions. \n";
                                         cout <<"All of you decide to make shelter for the night and gather some food.\n";
                                         cout <<"David and Jessica go in search for food and you and Michael built the shelter.\n";
-                                        cout << "You and Michael hear a scream, both of you run toward where the scream came from. When you notice that the scream came from the same direction where Jessica and David went in search for food, you start fearing the worst. When you finally arrived with Jessica and David you notice  Jessica practically bleeding to death and David trying to fight a bear.\n";  
+                                        cout << "You and Michael hear a scream, both of you run toward where the scream came from.\n";
+                                        cout <<"When you notice that the scream came from the same direction where Jessica and David went in search for food, you start fearing the worst.\n";
+                                        cout <<"When you finally arrived with Jessica and David you notice  Jessica practically bleeding to death and David trying to fight a bear.\n";  
                                         cout << "You and Michael try to help David fight off the bear but is useless. So you, Michael, and David decide to carry Jessica and run away from the bear.\n";
-                                        cout <<"As you see Jessica you start fearing the worst for her, she is bleeding too much. As all of you continue to run, Michael notices a cave and all of you decide to hide in the cave.\n"
+                                        cout <<"As you see Jessica you start fearing the worst for her, she is bleeding too much. As all of you continue to run, Michael notices a cave and all of you decide to hide in the cave.\n";
                                         cout <<"David and Michael block the entrance of the cave with boulders and branches so the bear can enter, and you lay Jessica in the ground.\n";
                                         cout <<"You all know she is dying, so you all gather around Jessica.\n";
-                                        cout <<"After ..... "
+                                        cout <<"After ..... \n";
                                         cin.get();
                                         break;
                                         
@@ -350,7 +352,7 @@ cout << "jungle\n";
                             cout << "You decide to stay the night a top of the tree.\n";
                             cout << "As the morning ascended you were skeptical whether or not to get down from the tree.\n";
                             cout << "You decide to get down from the tree.\n";
-		            cout << "You walk around with cautious.\n"
+		            cout << "You walk around with cautious.\n";
 			    cout << "After walking for half an hour you notice a cabin in the middle of the jungle.\n";
 			    cout << "You decide to enter the cabin, you notice there is backpacks in the entrance of the door and goats laying all over the sofas. Hints that there was people in the cabin.\n";
 			    cout << "You inspect the whole cabin and  notice pictures hanging in the wall, but one of the pictures caught your attention.\n";
@@ -360,7 +362,7 @@ cout << "jungle\n";
 			    cout << " You see the door knob move clockwise and counterclockwise.\n";
 			    cout << "Your heart starts beating fast and your palms of your hands start sweating profusely.\n";
 			    cout << "A man opens the door and stares at you with a perplexed expression.\n";
-			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n"
+			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n";
 			    cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
 			    cout << " After beating you for what felt an hour. He finally asks you what are you doing in the cabin. \n";
 			    cout <<"...\n";
