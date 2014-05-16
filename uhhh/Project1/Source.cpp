@@ -341,11 +341,15 @@ cout << "jungle\n";
                                         cout <<"As you see Jessica you start fearing the worst for her, she is bleeding too much. As all of you continue to run, Michael notices a cave and all of you decide to hide in the cave.\n";
                                         cout <<"David and Michael block the entrance of the cave with boulders and branches so the bear can enter, and you lay Jessica in the ground.\n";
                                         cout <<"You all know she is dying, so you all gather around Jessica.\n";
-                                        cout <<"After ..... \n";
                                         cin.get();
+                            		cout <<"As Jessica lay peacefully, you all decide to cover her with flowers. Afterwards, you all are determined to get out of the jungle. You all handcraft some weapons.\n";
+                        		cin.get();
+                        	        cout<<"....\n";
+                                   
+
                                         break;
                                         
-                                }
+                                
                          case 2:
                             cout << "You stand there and slowly walk towards the nearest tree.\n";
                             cout << "You climb the tree quietly as possible until you reach the  highest branch.\n";
@@ -365,9 +369,38 @@ cout << "jungle\n";
 			    cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n";
 			    cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
 			    cout << " After beating you for what felt an hour. He finally asks you what are you doing in the cabin. \n";
-			    cout <<"...\n";
-                                cin.get();
-			break;
+			  
+			   int man;
+                            
+                            cout <<"Do you [e]xplain to him or do you [r]un?\n";
+                            cin.get();
+                            
+                        case E:
+                          
+                            cout<< "You decide to explain to him your situation and the man looks rather perplexed.\n";
+                            cout <<"After you finish explaining to him your story, but you get no respond; therefore, you decide to leave.\n";
+                            cout<<"Howevever, as your about to leave, q woman appears and  stares at you with astonishment.\n";
+                            cout <<" She tells you, 'John is that you? Where have you been all this time?\n";
+                            cout <<" You are confused and out of nowhere she hugs you.\n";
+                            cout <<" After a brief moment, she lets go of you, and you ask her who she is.\n";
+                            cout <<"She tells you, ....."\n";"
+                            
+                            
+                             case R:
+
+                            cout<<"You run out of the room and you bump into a woman.\n";
+                            cout<<"She calls you 'John' and starts sobbing and asking you questions such as 'Where have you been?' 'We have been lookink for you?' 'Why aren't you answering me?'\n";
+                            cout <<"You just stand there looking at her, not knowing what to do.\n";
+                            cout<<"'Til finally she explains to you the entire story of how you they though you were lost and then dead because it had been over three months since they last saw you.\n";
+                            cout <<"You couldn't believe what you were hearing,....\n";
+                            
+                            
+                            
+                            
+                            
+                            break;
+
+		
 
 case 4:
 
