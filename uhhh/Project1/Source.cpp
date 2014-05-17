@@ -1,3 +1,5 @@
+/*CS110 Final Project by Alejandra Sierra, Ngara Bird, and Edward Moreno*/
+
 #include <iostream>
 using namespace std;
 
