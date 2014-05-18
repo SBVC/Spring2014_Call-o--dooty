@@ -4,6 +4,7 @@
 using namespace std;
 
 
+
 class WhichDirection
 {
 private:
@@ -21,29 +22,28 @@ public:
 };
 
 WhichDirection::WhichDirection(void){
-	southBeach = 1;
-	northBeach = 2;
-	toJungle = 3;
-	toRocks = 4;
+	southBeach == 1;
+	northBeach == 2;
+	toJungle == 3;
+	toRocks == 4;
 }
 
 int main()
 {
-	int x;
-	x = 0;
+	
+	int coin; //for the loop at the coconut trees.
+
+	cout << "Welcome. Press enter to read the rules and begin the game.\n";
+	cin.get();
+	cout << "This is a choose your own adventure! Press enter to continue the story\n";
+	cout << "and when the time comes, choose your own adventure!\n";
 	do{
-	cout << "Begin\n";
-
-
-
-	cout << "Press enter to continue...";
 	cin.get();
 
 	cout << "You wake up slowly with waves crashing over your body.\n";
 	cout << "You don't know where you are or how you got there.\n";
 	cout << "You get up and look around.\n";
 
-	cout << "Press enter to continue...";
 	cin.get();
 	int explore;
 	cout << "Where would you like to go?\n";
@@ -115,7 +115,7 @@ int main()
 			cout << "You drop the entry onto the sand and fall to your knees. The sounds of the waves become disorted and\n";
 			cout << "you can no longer see clearly. Your head hits the ground. You catch a glimpse of a dark figure standing above you\n";
 			cout << "before your eyes close and you lose consciousness.\n";
-
+			//more to come
 			break;
 
 		case 'M':
@@ -134,6 +134,21 @@ int main()
 
 			cin >> hunger;
 			switch (hunger){
+
+			case 's':
+			case 'S':
+				cout << "You continue to wander the shoreline listlessly.\n";
+				cout << "You notice some flashy lights coming from the distance.\n";
+				cin.get();
+				cout << "'What year is it again?' You think to yourself.\n";
+				cout << "'Has electricity even been invented yet?'\n";
+				cout << "'No of course not...I'm being silly.\n";
+				cin.get();
+				cout << "You shake your head, angry that you made such a simple error in logic.\n";
+				cout << "Flashy lights in 1721? Seriously?? This is supposed to be a pirate story.\n";
+				cout << "Get out of here!!!\n";
+				cin.get();
+
 			case 'R':
 			case 'r':
 
@@ -184,8 +199,11 @@ int main()
 				cout << "As you approach the hut, you notice smoke coming from the roof.\n";
 				cout << "Someone is nearby and they may even have food for you!\n";
 				cin.get();
-
-
+				cout << "You rush toward the cabin ostentaciously.\n";
+				cin.get();
+				cout << "Suddenly you feel something grab your leg and then you are hanging upside down from one of the trees.\n";
+				cout << "Looks like YOU'LL be dinner tonight. Game Over.\n";
+				break;
 			case 'T': //user turns around to the rustling
 			case 't':
 				cout << "You spin around as soon as you hear the rustling.\n";
@@ -274,7 +292,6 @@ int main()
 		cout << "You decide that you can harvest water from either of them.\n";
 		cout << "What you can't decide is which...\n";
 
-		int coin;
 		int heads;
 		heads == 1;
 
@@ -386,12 +403,14 @@ int main()
 		break;
 	case 'c':
 	case'C':
-		cout << "daaaang";
+		cout << "You try to sneak out quietly.\n";
+		cout << "You are extremely unsuccessful.\n";
+		cout << "Game over...\n";
 		break;
 		}
 
 		else { cout << "you entered an invalid option. enter 1 or 2!"; }
-
+		cin.get();
 		break;
 
 	case 3:
@@ -510,7 +529,7 @@ int main()
 					cout << " You are confused and out of nowhere she hugs you.\n";
 					cout << " After a brief moment, she lets go of you, and you ask her who she is.\n";
 					cout << "She tells you, .....\n";
-
+					break;
 				case 'R':
 				case 'r':
 
@@ -521,18 +540,14 @@ int main()
 					cout << "You couldn't believe what you were hearing,....\n";
 
 
-
-
-
 					break;
-
+					break;
 
 
 				case 4:
 
-					cout << "rocky shore\n";
+					cout << "Rocky Shore\n";
 
-					cout << "Chapter 2\n";
 
 					cout << "There are jagged rocks that from a distance look as swords stabbed in the beach.\n";
 
@@ -540,7 +555,7 @@ int main()
 
 					cout << "You are at the rocks and for some reason you get an eerie feeling.\n";
 
-					cout << "Press enter to climb to the top...";
+					cout << "Press enter to climb to the top...\n";
 
 					cin.get();
 
@@ -564,13 +579,9 @@ int main()
 
 					cout << "As you continue you see a straw hat blowing towards you.\n";
 
-					cout << "Press enter to put hat on or push ctrl to let it pass...";
+					cout << "Press enter to put hat on...";
 
 					cin.get();
-
-					int hat;
-
-
 
 					cout << "Then there is a dim yellow glow to what seems the end of the rocks.\n";
 
@@ -578,11 +589,10 @@ int main()
 
 					cout << "You hear a woman's scream.\n";
 
-					cout << "Push enter to go forward or to go back push Ctrl...";
+					cout << "Push enter to go forward...";
 
 					cin.get();
 
-					int going;
 
 					cout << "What to do?.\n";
 
@@ -679,5 +689,5 @@ int main()
 			}
 		}
 	}
-} while (x != 0);
+} while (coin != 1);
 }
