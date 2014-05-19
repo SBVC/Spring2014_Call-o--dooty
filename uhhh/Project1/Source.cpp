@@ -456,7 +456,7 @@ int main()
 				cout << "You slowly turn around and see a GORILLA\n";
 				cout << "He attacks you and you try to fight him off but he continues to attack you.\n";
 				cout << " The gorilla eventually rips you to shreds and you die.\n";
-
+				cout << "-----------------GAME OVER-------------------\n";
 				cin.get();
 
 
@@ -484,8 +484,9 @@ int main()
 				cin.get();
 				cout << "As Jessica lay peacefully, you all decide to cover her with flowers. Afterwards, you all are determined to get out of the jungle. You all handcraft some weapons.\n";
 				cin.get();
-				cout << "....\n";
-
+				cout << "As you all get ready for any unexpected attack, you all see a pack of lions from a distance. You all try to run away from them; however, it was too late because they eventually catch up to you guys.\n";
+                                cout << "The lions eventualy rips you all to shreds and you all die.";
+                                cout << "-----------------------GAME OVER------------------------------\n";
 
 				break;
 
@@ -528,7 +529,9 @@ int main()
 					cout << " She tells you, 'John is that you? Where have you been all this time?\n";
 					cout << " You are confused and out of nowhere she hugs you.\n";
 					cout << " After a brief moment, she lets go of you, and you ask her who she is.\n";
-					cout << "She tells you, .....\n";
+					cout << "She tells you, and you couldn't believe what she was telling you.\n";
+					cin.get();
+					cout << "After three hours of questioning her, you realize she is your sister and you are finally home.\n";
 					break;
 				case 'R':
 				case 'r':
@@ -537,7 +540,9 @@ int main()
 					cout << "She calls you 'John' and starts sobbing and asking you questions such as 'Where have you been?' 'We have been lookink for you?' 'Why aren't you answering me?'\n";
 					cout << "You just stand there looking at her, not knowing what to do.\n";
 					cout << "'Til finally she explains to you the entire story of how you they though you were lost and then dead because it had been over three months since they last saw you.\n";
-					cout << "You couldn't believe what you were hearing,....\n";
+					cout << "You couldn't believe what you were hearing.\n";
+					cin.get();
+					cout << "You all spend hours questioning one another because you couldn't believe you finally found your family.\n";
 
 
 					break;
