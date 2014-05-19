@@ -420,7 +420,7 @@ int main()
 		cout << "You decide to gather some food before the night descended.\n";
 		cout << "As you walk deeper and deeper into the jungle every step you take your feet sink in the spongy green ground.\n";
 		cout << "Sounds emerge and from a distance you notice a dark silhoutte coming towards you.\n";
-		cout << " You stand still for a few seconds until you realize it's a WOLF\n";
+		cout << " You stand still for a few seconds until you realize it's a WOLF.\n";
 		cout << "Press enter to continue.\n";
 		cin.get();
 
@@ -429,7 +429,7 @@ int main()
 		cout << "Do you run or climb the nearest tree?\n";
 
 		cout << "What would you like to do?\n";
-		cout << "[1] to run or [2] to climb the nearest tree\n";
+		cout << "[1] to run or [2] to climb the nearest tree.\n";
 		cin >> wolves;
 		cin.get();
 
@@ -449,8 +449,9 @@ int main()
 			cout << " [3] to continue to run or [4] to enter the cave";
 			cin >> cave;
 			cin.get();
-			switch (cave) {
-		case 3:
+			
+			if (cave ==3) {
+			    case 3:
 				cout << "You continue to run until you reach a dead end\n";
 				cout << "The wolves approach you, however, all of sudden the wolves leave you and go back in the same direction they came from\n";
 				cout << "You slowly turn around and see a GORILLA\n";
@@ -459,11 +460,13 @@ int main()
 				cout << "-----------------GAME OVER-------------------\n";
 				cin.get();
 
-
 				break;
-	case 4:
-				cout << " You enter the cave and stay there for a while until the wolves are no longer chasing you. You find some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
-				cout << " You stay the night inside the cave and as the morning ascended you decide to leave the cave with your handmade weapon.\n";
+                        }
+                        else if (cave ==4){
+                               case 4:
+	
+				cout << "You enter the cave and stay there for a while until the wolves are no longer chasing you. You find some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
+				cout << "You stay the night inside the cave and as the morning ascended you decide to leave the cave with your handmade weapon.\n";
 				cout << "You decide to look for someone to help you get out of the island. As you continue to walk you notice various shreds of animals and you begin to fear for your life.\n";
 				cout << "From a far you notice three silhouttes, you begin to get scared, so you pull out your weapon for protection.\n";
 				cin.get();
@@ -486,10 +489,11 @@ int main()
 				cin.get();
 				cout << "As you all get ready for any unexpected attack, you all see a pack of lions from a distance. You all try to run away from them; however, it was too late because they eventually catch up to you guys.\n";
                                 cout << "The lions eventualy rips you all to shreds and you all die.";
+                                cin.get();
                                 cout << "-----------------------GAME OVER------------------------------\n";
 
 				break;
-
+                        }
 
 			case 2:
 				cout << "You stand there and slowly walk towards the nearest tree.\n";
@@ -515,14 +519,13 @@ int main()
 
 				int man;
 
-				cout << "Do you [e]xplain to him or do you [r]un?\n";
-				cin >> man;
-				switch (man)
-				{
-
-				case 'E':
-				case 'e':
-
+				 cout << "Do you explain to him or do you run?\n";
+                        	 cout << " [6] to explain or [9] to run.\n";
+                                 cin >> man;
+                               
+                                 if (man == 6){
+                                    
+                                case 6:
 					cout << "You decide to explain to him your situation and the man looks rather perplexed.\n";
 					cout << "After you finish explaining to him your story, but you get no respond; therefore, you decide to leave.\n";
 					cout << "Howevever, as your about to leave, q woman appears and stares at you with astonishment.\n";
@@ -532,10 +535,13 @@ int main()
 					cout << "She tells you, and you couldn't believe what she was telling you.\n";
 					cin.get();
 					cout << "After three hours of questioning her, you realize she is your sister and you are finally home.\n";
-					break;
-				case 'R':
-				case 'r':
-
+			       	        cout << "You are finally happy that you found your family.\n";
+                                        cout << "--------------Congratulations, you completed your mission.---------------------------\n";
+                                        break;
+                                       }
+                                  else if ( man ==9){
+                                    
+                                     case 9:
 					cout << "You run out of the room and you bump into a woman.\n";
 					cout << "She calls you 'John' and starts sobbing and asking you questions such as 'Where have you been?' 'We have been lookink for you?' 'Why aren't you answering me?'\n";
 					cout << "You just stand there looking at her, not knowing what to do.\n";
@@ -543,10 +549,11 @@ int main()
 					cout << "You couldn't believe what you were hearing.\n";
 					cin.get();
 					cout << "You all spend hours questioning one another because you couldn't believe you finally found your family.\n";
-
-
-					break;
-					break;
+					cout << "You are finally happy you are home.\n";
+                                	cout << "---------------Congratulations, you completed your mission.----------------------------\n";
+                                    
+                                        break;
+                                        }
 
 
 				case 4:
