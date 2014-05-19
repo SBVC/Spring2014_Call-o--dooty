@@ -561,6 +561,15 @@ int main()
                         		 cin.get();
                 			 break;
 
+					  {
+                		 default:
+                            	 cout << "You have entered an invalid character. Try again.\n";
+                            
+                		  }
+                        
+                		 break;
+                
+                        
 				case 4:
 
 					cout << "Rocky Shore\n";
