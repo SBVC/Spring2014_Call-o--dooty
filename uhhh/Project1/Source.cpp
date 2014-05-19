@@ -494,9 +494,9 @@ int main()
 
 				break;
                         }
-				  else { cout << "You entered an invalid option, please enter 3 or 8."; }
-                        cin.get();
-                        break;
+		        else { cout << "You entered an invalid option, please enter 3 or 8."; }
+                               cin.get();
+                               break;
                     
 			case 2:
 				cout << "You stand there and slowly walk towards the nearest tree.\n";
@@ -557,8 +557,8 @@ int main()
                                     
                                         break;
                                         }
-					 else { cout << "You entered an invalid option, please enter 6 or 9."; }
-                        		cin.get();
+				 else { cout << "You entered an invalid option, please enter 6 or 9."; }
+                        		 cin.get();
                 			 break;
 
 				case 4:
