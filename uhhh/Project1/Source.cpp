@@ -698,8 +698,8 @@ int main()
 				system("pause");
 
 
-			}
-		}
+			
 	}
 } while (coin != 1);
+
 }
