@@ -539,7 +539,7 @@ int main()
 					cin.get();
 					cout << "After three hours of questioning her, you realize she is your sister and you are finally home.\n";
 			       	        cout << "You are finally happy that you found your family.\n";
-                                        cout << "--------------Congratulations, you completed your mission.---------------------------\n";
+                                        cout << "--------------Congratulations, you completed your mission!!---------------------------\n";
                                         break;
                                        }
                                   else if ( man ==9){
@@ -553,7 +553,7 @@ int main()
 					cin.get();
 					cout << "You all spend hours questioning one another because you couldn't believe you finally found your family.\n";
 					cout << "You are finally happy you are home.\n";
-                                	cout << "---------------Congratulations, you completed your mission.----------------------------\n";
+                                	cout << "---------------Congratulations, you completed your mission!!----------------------------\n";
                                     
                                         break;
                                         }
