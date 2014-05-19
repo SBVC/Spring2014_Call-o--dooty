@@ -443,6 +443,7 @@ int main()
 			cout << "Press enter to continue\n";
 			cin.get();
 			cout << " You reach a cave.\n";
+			
 			int cave;
 			cout << "Do you wish to continue to run or enter the cave?\n";
 			cin.get();
@@ -498,29 +499,27 @@ int main()
                                cin.get();
                                break;
                     
-			case 2:
-				cout << "You stand there and slowly walk towards the nearest tree.\n";
-				cout << "You climb the tree quietly as possible until you reach the highest branch.\n";
-				cout << "You decide to stay the night a top of the tree.\n";
-				cout << "As the morning ascended you were skeptical whether or not to get down from the tree.\n";
-				cout << "You decide to get down from the tree.\n";
-				cout << "You walk around with cautious.\n";
-				cin.get();
-				cout << "After walking for half an hour you notice a cabin in the middle of the jungle.\n";
-				cout << "You decide to enter the cabin, you notice there is backpacks in the entrance of the door and coats laying all over the sofas. Hints that there was people in the cabin.\n";
-				cout << "You inspect the whole cabin and notice pictures hanging in the wall, but one of the pictures caught your attention.\n";
-				cout << "You grab the picture and stare at it for a few seconds and notice it looks like you.\n";
-				cout << "You hear some footsteps, so you run to the nearest room.\n";
-				cin.get();
-				cout << "You decide to hide but there is no place big enough for you to hide. So you just stand in the middle of the room waiting for whomever to find you.\n";
-				cout << "You see the door knob move clockwise and counterclockwise.\n";
-				cout << "Your heart starts beating fast and your palms of your hands start sweating profusely.\n";
-				cout << "A man opens the door and stares at you with a perplexed expression.\n";
-				cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n";
-				cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
-				cout << " After beating you for what felt an hour. He finally asks you what are you doing in the cabin. \n";
+		case 2:
+			cout << "You stand there and slowly walk towards the nearest tree.\n";
+			cout << "You climb the tree quietly as possible until you reach the highest branch.\n";
+			cout << "You decide to stay the night a top of the tree.\n";
+			cout << "As the morning ascended you were skeptical whether or not to get down from the tree.\n";				cout << "You decide to get down from the tree.\n";
+			cout << "You walk around with cautious.\n";
+			cin.get();
+			cout << "After walking for half an hour you notice a cabin in the middle of the jungle.\n";				cout << "You decide to enter the cabin, you notice there is backpacks in the entrance of the door and coats laying all over the sofas. Hints that there was people in the cabin.\n";
+			cout << "You inspect the whole cabin and notice pictures hanging in the wall, but one of the pictures caught your attention.\n";
+			cout << "You grab the picture and stare at it for a few seconds and notice it looks like you.\n";
+			cout << "You hear some footsteps, so you run to the nearest room.\n";
+			cin.get();
+			cout << "You decide to hide but there is no place big enough for you to hide. So you just stand in the middle of the room waiting for whomever to find you.\n";
+			cout << "You see the door knob move clockwise and counterclockwise.\n";
+			cout << "Your heart starts beating fast and your palms of your hands start sweating profusely.\n";
+			cout << "A man opens the door and stares at you with a perplexed expression.\n";
+			cout << "Then he starts attacking you with the lamp that he got from atop of the drawer.\n";
+			cout << "You try to explain why you were in the cabin but he continues to attack you.\n";
+			cout << " After beating you for what felt an hour. He finally asks you what are you doing in the cabin. \n";
 
-				int man;
+			int man;
 
 				 cout << "Do you explain to him or do you run?\n";
                         	 cout << " [6] to explain or [9] to run.\n";
@@ -563,153 +562,151 @@ int main()
 
 					  {
                 		 default:
-                            	 cout << "You have entered an invalid character. Try again.\n";
+                            		 cout << "You have entered an invalid character. Try again.\n";
                             
                 		  }
                         
                 		 break;
                 
                         
-				case 4:
+	case 4:
 
-					cout << "Rocky Shore\n";
+		cout << "Rocky Shore\n";
 
+		cout << "There are jagged rocks that from a distance look as swords stabbed in the beach.\n";
 
-					cout << "There are jagged rocks that from a distance look as swords stabbed in the beach.\n";
+		cout << "You start walking to the rocks there seems to be a constant fog looming over it.\n";
 
-					cout << "You start walking to the rocks there seems to be a constant fog looming over it.\n";
+		cout << "You are at the rocks and for some reason you get an eerie feeling.\n";
 
-					cout << "You are at the rocks and for some reason you get an eerie feeling.\n";
+		cout << "Press enter to climb to the top...\n";
 
-					cout << "Press enter to climb to the top...\n";
+		cin.get();
 
-					cin.get();
+		cout << "You start to climb to the top.\n";
 
-					cout << "You start to climb to the top.\n";
+		cout << "You feel pinches on your ankles and legs.\n";
 
-					cout << "You feel pinches on your ankles and legs.\n";
+		cout << "Press the enter key to look down...";
 
-					cout << "Press the enter key to look down...";
+		cin.get();
 
-					cin.get();
+		cout << "You look down and there are crabs snapping at you.\n";
 
-					cout << "You look down and there are crabs snapping at you.\n";
+		cout << "The pinches are feeling more like stabs.\n";
 
-					cout << "The pinches are feeling more like stabs.\n";
+		cout << "The pain is excruciating, but your more then halfway to the top.\n";
 
-					cout << "The pain is excruciating, but your more then halfway to the top.\n";
+		cout << "You get to the top of the rocks but your legs are bleeding.\n";
 
-					cout << "You get to the top of the rocks but your legs are bleeding.\n";
+		cout << "You walk around till you hear chanting on the rocks edge, closer to the ocean.\n";
 
-					cout << "You walk around till you hear chanting on the rocks edge, closer to the ocean.\n";
+		cout << "As you continue you see a straw hat blowing towards you.\n";
 
-					cout << "As you continue you see a straw hat blowing towards you.\n";
+		cout << "Press enter to put hat on...";
 
-					cout << "Press enter to put hat on...";
+		cin.get();
 
-					cin.get();
+		cout << "Then there is a dim yellow glow to what seems the end of the rocks.\n";
 
-					cout << "Then there is a dim yellow glow to what seems the end of the rocks.\n";
+		cout << "As you continue towards the ocean the chanting becomes to get louder.\n";
 
-					cout << "As you continue towards the ocean the chanting becomes to get louder.\n";
+		cout << "You hear a woman's scream.\n";
 
-					cout << "You hear a woman's scream.\n";
+		cout << "Push enter to go forward...\n";
 
-					cout << "Push enter to go forward...";
+		cin.get();
 
-					cin.get();
+		cout << "What to do?.\n";
 
+		cout << "You reach the edge and to your dismay the land drops to what looks like a crater.\n";
 
-					cout << "What to do?.\n";
+		cout << "There is a small fire barely illuminating the crater.\n";
+					
+		cout << "At the bottom of the crater there is a tribe doing human sacrififces.\n";
 
-					cout << "You reach the edge and to your dismay the land drops to what looks like a crater.\n";
+		cout << "The scream came from a woman that was getting her heart torn out.\n";
 
-					cout << "There is a small fire barely illuminating the crater.\n";
+		cout << "There is a line of people with hands bound all look like the tribe all but one.\n";
 
-					cout << "At the bottom of the crater there is a tribe doing human sacrififces.\n";
+		cout << "Within the line there is a bald white man with a bushy beard.\n"
+					
+		cout << "He is fifth to be sacrificed the second to be sacrificed is having the blade tear through his skin.\n";
 
-					cout << "The scream came from a woman that was getting her heart torn out.\n";
+		cout << "Press enter to get sneak down...\n";
 
-					cout << "There is a line of people with hands bound all look like the tribe all but one.\n";
+		cin.get();
 
-					cout << "Within the line there is a bald white man with a bushy beard.\n";
+		cout << "You are along the tribe.\n";
 
-					cout << "He is fifth to be sacrificed the second to be sacrificed is having the blade tear through his skin.\n";
+		cout << "Since there is little light you and your hat is on you are undetected.\n";
 
-					cout << "Press enter to get sneak down...";
+		cout << "The tribe is going to sacrifice the bearded man.\n";
 
-					cin.get();
+		cout << "Press enter to shout to get the tribes attention...\n";
+					
+		cin.get();
 
-					cout << "You are along the tribe.\n";
+		cout << "The tribe stops chanting and stare at you.\n";
 
-					cout << "Since there is little light you and your hat is on you are undetected.\n";
+		cout << "They start walking to you.\n";
 
-					cout << "The tribe is going to sacrifice the bearded man.\n";
+		cout << "Press enter to charge at the group and retrieve the bearded man...\n";
 
-					cout << "Press enter to shout to get the tribes attention...";
+		cin.get();
+					
+		cout << "You have the bearded man but the tribe is going to surround you.\n";
 
-					cin.get();
+		cout << "In the corner of your eye you see there is a crack just big enough to fit though.\n";
 
-					cout << "The tribe stops chanting and stare at you.\n";
+		cout << "You start running but the tribe is quickly on your tail.\n";
 
-					cout << "They start walking to you.\n";
+		cout << "You get to the crack but to your dismay the tribe stop as if in fear.\n";
 
-					cout << "Press enter to charge at the group and retrieve the bearded man...";
+		cout << "As you look away from the tribe and in the distance you see a light.\n";
 
-					cin.get();
+		cout << "You go towards the light but when you look back the tribe starts throwing rocks.\n";
+					
+		cout << "You start pushing the bearded man while the rocks keep hitting you.\n";
+					
+		cout << "The light is becoming bigger and brighter.\n";
 
-					cout << "You have the bearded man but the tribe is going to surround you.\n";
+		cout << "You get to the light which is a cliff.\n";
 
-					cout << "In the corner of your eye you see there is a crack just big enough to fit though.\n";
+		cout << "You look back and the tribe is now falling you.\n";
+					
+		cout << "Press enter to jump from the cliff...\n";
 
-					cout << "You start running but the tribe is quickly on your tail.\n";
+		cin.get();
 
-					cout << "You get to the crack but to your dismay the tribe stop as if in fear.\n";
+		cout << "You jump into the ocean but the pain of the open wound is unbearable.\n";
 
-					cout << "As you look away from the tribe and in the distance you see a light.\n";
+		cout << "Your barely conscious when you fell yourself getting grabbed.\n";
 
-					cout << "You go towards the light but when you look back the tribe starts throwing rocks.\n";
+		cout << "The bearded man swims the both of you ashore.\n";
 
-					cout << "You start pushing the bearded man while the rocks keep hitting you.\n";
+		cout << "You two go ashore and when he start talking with an anger face.\n";
+		
+		cout << "You feel the bearded mans hands grasping your neck.\n";
 
-					cout << "The light is becoming bigger and brighter.\n";
+		cout << "Press enter to try and fight him...\n";
 
-					cout << "You get to the light which is a cliff.\n";
+		cin.get();
+					
+		cout << "The more struggle you put the tighter his grip gets.\n";
 
-					cout << "You look back and the tribe is now falling you.\n";
+		cout << "He YELLS This is for the captian you scum.\n";
 
-					cout << "Press enter to jump from the cliff...";
+		cout << "With your last breath and your vision dissipating you ask WHY!!!.\n";
 
-					cin.get();
+		}
 
-					cout << "You jump into the ocean but the pain of the open wound is unbearable.\n";
+		break;
 
-					cout << "Your barely conscious when you fell yourself getting grabbed.\n";
+		default:
+			cout << "Error - Invalid input\n";
 
-					cout << "The bearded man swims the both of you ashore.\n";
-
-					cout << "You two go ashore and when he start talking with an anger face.\n";
-
-					cout << "You feel the bearded mans hands grasping your neck.\n";
-
-					cout << "Press enter to try and fight him...";
-
-					cin.get();
-
-					cout << "The more struggle you put the tighter his grip gets.\n";
-
-					cout << "He YELLS This is for the captian you scum.\n";
-
-					cout << "With your last breath and your vision dissipating you ask WHY!!!.\n";
-
-				}
-
-				break;
-
-			default:
-				cout << "Error - Invalid input\n";
-
-				system("pause");
+			system("pause");
 
 
 			
