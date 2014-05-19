@@ -446,7 +446,7 @@ int main()
 			int cave;
 			cout << "Do you wish to continue to run or enter the cave?\n";
 			cin.get();
-			cout << " [3] to continue to run or [4] to enter the cave";
+			cout << " [3] to continue to run or [8] to enter the cave";
 			cin >> cave;
 			cin.get();
 			
@@ -462,8 +462,8 @@ int main()
 
 				break;
                         }
-                        else if (cave ==4){
-                               case 4:
+                        else if (cave ==8){
+                               case 8:
 	
 				cout << "You enter the cave and stay there for a while until the wolves are no longer chasing you. You find some wood and sharp rocks inside the cave and decide to craft yourself a weapon for protection.\n";
 				cout << "You stay the night inside the cave and as the morning ascended you decide to leave the cave with your handmade weapon.\n";
