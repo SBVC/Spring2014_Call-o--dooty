@@ -531,7 +531,7 @@ int main()
                                 case 6:
 					cout << "You decide to explain to him your situation and the man looks rather perplexed.\n";
 					cout << "After you finish explaining to him your story, but you get no respond; therefore, you decide to leave.\n";
-					cout << "Howevever, as your about to leave, q woman appears and stares at you with astonishment.\n";
+					cout << "Howevever, as your about to leave, a woman appears and stares at you with astonishment.\n";
 					cout << " She tells you, 'John is that you? Where have you been all this time?\n";
 					cout << " You are confused and out of nowhere she hugs you.\n";
 					cout << " After a brief moment, she lets go of you, and you ask her who she is.\n";
